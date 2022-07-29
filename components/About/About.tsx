@@ -7,15 +7,13 @@ const About = () => {
       <SimpleGrid columns={[1, 2]} gap={[5, 10]}>
         <Box my="auto">
           <Heading size="xl">
-            AttoEarth resolves land disputes in an unprecedented manner that opens up novel
-            innovations in the world of blockchain protocols.
+            Cert.fy: the next gen certificate built on web3 for transparency and security
           </Heading>
           <Text mt="5">
-            We implement geometric computations using highly efficient gas preserving techniques,
-            store land polygons and geometry information on the blockchain, which provides
-            transparent and verifiable records for potential conflict zones. By a multi-party voting
-            mechanism, potential conflicts are resolved, and land measurements by independent
-            validators are taken into account during the voting process.
+            We aim to implement a new certificate system that is built on the Ethereum ecosystem, 
+            Providing a decentralized way to verify and store certificates. With the help of our platform
+            you can issue your own certificates and share them with others. Verifiers provide authenticity to
+            our certificates making them more secure and trusted
           </Text>
           <Box mt="5">
             <Button variant="outline" mr="5">
@@ -36,7 +34,7 @@ const About = () => {
               left="-5"
               top="-5"
             />
-            <Card hoverEffect={false} />
+            {/* <Card hoverEffect={false} /> */}
             <Box
               w="100px"
               h="100px"

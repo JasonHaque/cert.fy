@@ -25,7 +25,7 @@ const Footer = () => {
         >
           <Box gridColumn={['1 span', '2 span']}>
             <Logo fontSize="24px" />
-            <Text mt={5}>Solving land disputes at the atomic level</Text>
+            <Text mt={5}>Issuing certificates on web3</Text>
           </Box>
           <Box>
             <VStack align="flex-start" gap="20px">
@@ -46,7 +46,7 @@ const Footer = () => {
           <Box>
             <VStack align="flex-start" gap="20px">
               <Heading size="md">Contact</Heading>
-              <a href="#!">+1 339-707-5370</a>
+              <a href="#!">+8801719058105</a>
               <a href="mailto:contact@leveor.xyz">contact@leveor.xyz</a>
             </VStack>
           </Box>

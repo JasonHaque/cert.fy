@@ -13,7 +13,7 @@ const Logo = ({ fontSize }: PropTypes) => {
       fontWeight="bold"
       letterSpacing="1.5px"
     >
-      CERT.ISSUER
+      CERT.FY
     </Text>
   );
 };
