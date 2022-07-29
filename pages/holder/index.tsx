@@ -54,9 +54,9 @@ const HolderDashboard = () => {
   return (
     <Box pt="10">
       <Container maxW="container.xl">
-        <SectionTitle title="Verifier Dashboard" />
+        <SectionTitle title="Holder Dashboard" />
 
-        <TableContainer mt={4} bgGradient={'linear(to-br, primary, secondary)'}>
+        <TableContainer mt={4} bgGradient={"linear(to-br, primary, secondary)"}>
           <Table mt={16} variant="striped" colorScheme="blackAlpha">
             <Thead>
               <Tr>
@@ -79,7 +79,10 @@ const HolderDashboard = () => {
                   <Td>{new Date(+cert.issuedAt * 1000).toLocaleString()}</Td>
                   <Td>{cert.signature}</Td>
                   <Td>
-                    <IconButton icon={<FaExternalLinkAlt />} aria-label="Deatils" />
+                    <IconButton
+                      icon={<FaExternalLinkAlt />}
+                      aria-label="Deatils"
+                    />
                   </Td>
                 </Tr>
               ))}
